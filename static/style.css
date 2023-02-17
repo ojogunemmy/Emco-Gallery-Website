@@ -1,0 +1,423 @@
+:root{
+
+    --body-background-color:white;
+    --div-background-color:white;
+}
+
+body{
+    background-color: var(--body-background-color);
+    font-size: 18px;
+    color:blue;
+    
+}
+.default{
+    
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.default_Cont_login{
+
+    font-family:cursive;
+   
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 100px;
+    background-color:beige;
+    box-shadow: 1px 1px 5px 5px lightgrey
+    
+}
+.default_Cont{
+    font-family:cursive;
+    color:blue;
+    height: 800px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 100px;
+    background-color:beige;
+    box-shadow: 1px 1px 5px 5px lightgrey
+    
+}
+label{
+    font-size: 24px;
+    font-family: cursive;
+
+}
+
+input{
+    height: 50px;
+    font-size: large;
+    font-family: cursive;
+
+    
+}
+.login{
+    background-color: blue;
+    color: beige;
+    font-family: cursive;
+    margin-top: 20px;
+    height: 50px;
+    text-align: center;
+}
+input:nth-of-type(5){
+    font-family: cursive;
+    margin-top: 10px;
+    background-color: blue;
+    color:beige;
+   
+    height: 50px;
+    text-align: center;
+}
+.div_cont{
+    height: 800px;
+    width: 800px;
+    display:flex;
+    font-size: 24px;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+a{
+    color: blue;
+}
+.container{
+    
+    margin-top:0px ;
+   
+    background-color:var(--body-background-color) ;
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.02fr 1fr 0..5fr;
+    grid-template-areas: "nav nav nav" "content content content" "footer footer footer" ;
+    animation: anime;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    text-align: center;   
+    font-family:cursive;
+   
+    
+  
+
+}
+h3{
+    font-size: 16px;
+    margin: 5px;
+    white-space:wrap;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    text-align: justify;
+    font-family: cursive;
+    text-align: start;
+ 
+}
+*{
+    box-sizing: border-box;
+}
+
+.hmm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+    padding-bottom: 40px;
+    font-family: cursive;
+
+    
+}
+.fir{
+    font-family: cursive;
+
+    width: 300px;
+    height: 300px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 1px;
+    margin: 30px;
+    box-shadow: 1px 1px 10px 10px lightgrey
+  
+  
+   
+    
+}
+p{
+   font-family: cursive;
+   color: blue;  
+}
+
+img{
+    height: 230px;
+    width: 200px;
+    margin-top: 5px;
+   
+    
+}
+img:hover{
+    
+   transform:scale(1.4);
+
+    
+    
+}
+#img{
+    margin-right: 10%;
+    float: inline-start;
+    border: solid wheat;
+    height: 50px;
+    width: 70px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+    
+    
+  
+}
+
+
+.log{
+
+   
+    width: 100%;
+   
+   justify-content: space-evenly;
+   display: flex;
+
+ 
+    
+  
+    
+}
+
+   
+
+
+#lin{
+  list-style-type: none;
+
+  
+  font-size: 24px;
+  background-color:beige;
+  border-radius: 5px;
+
+}
+
+#lin:hover{
+    
+    box-shadow: 1px 1px 10px 10px lightgrey
+
+  }
+#li{
+     list-style-type: none;
+     margin:5px;
+     font-size: 24px;
+     font-family: cursive;
+     
+     background-color: beige;
+    
+     border-radius: 5px;
+
+   
+     
+
+    
+    }
+#li:hover{
+    box-shadow: 1px 1px 10px 10px lightgrey
+
+}
+
+#li:nth-of-type(1){
+       
+        font-family: cursive;
+        text-align: left;
+        flex-basis:200px;
+       
+    }
+#lin:nth-of-type(7){
+        font-family: cursive;
+        margin: 5px;
+        text-align: center;
+       
+
+       
+}
+#lin:nth-of-type(6){
+        font-family: cursive;
+        
+        margin-left: 70px;
+        text-align: center;
+        
+       
+
+}
+a{
+    text-decoration: none;
+  
+}
+.flex{
+    
+    color: white;
+    width: 100%;
+    margin-left: 30%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 20px;
+    height: max-content;
+   font-size: 12px;
+    
+}
+
+
+
+
+.nav{
+    
+    grid-area: nav;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction:  row;
+    background-color:beige;
+    font-family: cursive;
+    padding-bottom: 2px;
+
+    
+ 
+}
+#content{
+    grid-area: content;
+    background-color: var(--body-background-color);
+    box-shadow: 1px 1px white;
+    font-family: cursive;
+   
+    
+
+}
+#footer{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:stretch;
+
+    grid-area: footer;
+    font-family: cursive;
+    background-color: beige;
+
+}
+strong{
+    text-align: start;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.d{
+    align-self:stretch;
+    font-weight: 600;
+   
+}
+#d{
+    text-align: start;
+    margin-left: 20px;
+    
+}
+@media only screen and (max-width:900px) {
+    #lin:nth-of-type(6){
+        margin: 5px;
+       text-align: center;
+       flex-basis:200px;
+       padding-left: 100px;
+       font-family: cursive;
+
+
+      
+
+}
+#lin:nth-of-type(7){
+    margin: 5px;
+   text-align: center;
+   flex-basis:200px;
+   padding-right: 100px;
+   font-family: cursive;
+
+  
+
+}
+  .container{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 0fr 1fr 0.5fr;
+      grid-template-areas: "nav" "content" "footer";
+      margin-bottom: 50px;
+      
+  }
+  .hmm{
+    padding-bottom: 50px;
+    
+    
+}
+.fir{
+
+   
+    padding-bottom: 20px;
+   margin-bottom: 40px;
+  
+    
+}
+.log{
+     
+      display: flex;
+    
+
+  }
+  .tu{
+    
+      
+      background-color: azure;
+  }
+
+
+  .flex{
+      margin-left: 10%;
+     
+      display: flex;
+      justify-content: center;
+  }
+
+  
+  .nav{
+      flex-wrap: wrap;
+      align-content: center;
+      
+  }
+
+ 
+
+    
+}
+
+/* 
+@keyframes anime{
+    10%{text-shadow: 1px 1px red;}
+    20%{text-shadow: 1px 1px green;}
+    30%{text-shadow: 1px 1px yellow;}
+    40%{text-shadow: 1px 1px blue; }
+    50%{text-shadow:1px 1px cyan;}
+    100%{text-shadow: 1px 1px purple;}
+   
+    
+
+
+} */
